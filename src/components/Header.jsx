@@ -5,7 +5,13 @@ const Header = () => {
   return (
     <nav>
       <h1>LOREM</h1>
-      <main>`</main>
+      <main>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/contact"}>Contact</Link>
+        <Link to={"/#about"}>About</Link>
+        <Link to={"/brands"}>Brands</Link>
+        <Link to={"/service"}>Services</Link>
+      </main>
     </nav>
   );
 };
