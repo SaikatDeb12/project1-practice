@@ -1,0 +1,34 @@
+@import "colors";
+
+footer {
+  background-color: $first;
+  height: 200px;
+  width: 100%;
+  color: $dark;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+
+  > div {
+    > h1 {
+      color: $third;
+    }
+  }
+
+  > div {
+    > div {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+
+      > a {
+        color: black;
+        font-weight: bold;
+      }
+
+      > a:hover {
+        color: $third;
+      }
+    }
+  }
+}
