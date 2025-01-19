@@ -11,7 +11,7 @@ import {
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <main>
           <h1>Lorem, ipsum.</h1>
           <p>
